@@ -1,0 +1,209 @@
+<html lang="en"></html>
+
+</html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- discount -->
+    <div class="discount">
+        <h3>Sign Up and GET 20% OFF for your first Order </h3>
+        <div class="discount-icon">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+
+
+    </div>
+    <!-- navbar -->
+    <nav class="navbar">
+        <h1>Nostra</h1>
+        <div class="navbar-list">
+            <p class="list">
+                <a href="index.html">Home</a>
+                <a href="">New Arrival</a>
+                <a href="">Most Wanted</a>
+                <a href="collection.html">Collection</a>
+                <a href="contact.html">Contact</a>
+            </p>
+        </div>
+
+
+        <div class="navbar-icon" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <!-- side-navbar -->
+    <div class="side-navbar">
+        <p class="side-navbar-icon" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-list">
+            <p class="side-navbar-lists">
+                <a href="index.html">Home</a>
+                <a href="">New Arrival</a>
+                <a href="">Most Wanted</a>
+                <a href="collection.html">Collection</a>
+                <a href="contact.html">Contact</a>
+            </p>
+        </div>
+    </div>
+    <!-- collection -->
+    <div class="collection">
+
+        <div class="side-collection" id="collection">
+            <div class="one">
+                <h1>Occasion</h1>
+                <div class="checkbox">
+                    <div>
+                        <input type="checkbox" name="check" value="summer">
+                        <span>summer</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="check" value="Party">
+                        <span>Party</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="check" value="Beach">
+                        <span>Beach</span>
+                    </div>
+                </div>
+            </div>
+            <div class="two">
+                <h1>Colors</h1>
+                <div class="checkbox">
+                    <div>
+                        <input type="checkbox" name="check" value="Red">
+                        <span>Red</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="check" value="Blue">
+                        <span>Blue</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="check" value="White">
+                        <span>White</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="check" value="black">
+                        <span>Black</span>
+                    </div>
+                </div>
+            </div>
+            <div class="two">
+                <h1>Arrivals</h1>
+                <div class="checkbox">
+                    <div>
+                        <input type="checkbox" name="check" value="New">
+                        <span>New</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="check" value="Old">
+                        <span>Old</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="product-img">
+            <div class="product-input">
+                <form class="product-search">
+                    <input type="text" id="product-input" placeholder="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </form>
+            </div>
+            <div id="product">
+                <div class="img-box">
+                    <img src="./img/f1.jpg" alt="">
+                    <p>Summer Shirt</p>
+                    <p>$100</p>
+                </div>
+                <div class="img-box">
+                    <img src="./img/n7.jpg" alt="">
+                    <p>Blue Shirt</p>
+                    <p>$20</p>
+                </div>
+                <div class="img-box">
+                    <img src="./img/n8.jpg" alt="">
+                    <p>White Shirt</p>
+                    <p>$70</p>
+                </div>
+                <div class="img-box">
+                    <img src="./img/n3.jpg" alt="">
+                    <p>Party Shirt</p>
+                    <p>$30</p>
+                </div>
+                <div class="img-box">
+                    <img src="./img/n4.jpg" alt="">
+                    <p>Beach Shirt</p>
+                    <p>$60</p>
+                </div>
+                <div class="img-box">
+                    <img src="./img/f1.jpg" alt="">
+                    <p>black Shirt</p>
+                    <p>$50</p>
+                </div>
+                <div class="img-box">
+                    <img src="./img/n8.jpg" alt="">
+                    <p>Blue Shirt</p>
+                    <p>$20</p>
+                </div>
+                <div class="img-box">
+                    <img src="./img/n1.jpg" alt="">
+                    <p>party Shirt</p>
+                    <p>$30</p>
+                </div>
+                <div class="img-box">
+                    <img src="./img/n3.jpg" alt="">
+                    <p>black Shirt</p>
+                    <p>$50</p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- news-letter -->
+    <div class="news">
+        <h2>Join our News letter</h2>
+        <p>Signup for our email newsletter to get exclusive to get discounts and updates</p>
+        <div>
+            <input type="text" class="search">
+        </div>
+        <div>
+            <button>Subcribe</button>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box">
+                <h2>Nostra</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, quos?</p>
+                <div class="footer-icons">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+        <p>@ 2024 Nostra.com</p>
+    </div>
+    <script src="collection.js"></script>
+</body>
